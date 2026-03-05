@@ -1,0 +1,72 @@
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server.服务器版本: Apache Tomcat/11.0.9
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器构建:        Jul 1 2025 20:39:04 UTC
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 服务器版本号:      11.0.9.0
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 操作系统名称:      Windows 11
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS.版本:           10.0
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 架构:              amd64
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java 环境变量:     D:\[jdk]\jdk-17
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java虚拟机版本:    17.0.15+9-LTS-241
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM.供应商:        Oracle Corporation
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:     D:\JavaWeb\work\.metadata\.plugins\org.eclipse.wst.server.core\tmp3
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:     D:\[Tomcat]\apache-tomcat-11.0.9-17
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Dcatalina.base=D:\JavaWeb\work\.metadata\.plugins\org.eclipse.wst.server.core\tmp3
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Dcatalina.home=D:\[Tomcat]\apache-tomcat-11.0.9-17
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Dwtp.deploy=D:\JavaWeb\work\.metadata\.plugins\org.eclipse.wst.server.core\tmp3\wtpwebapps
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Djava.library.path=D:\[Tomcat]\apache-tomcat-11.0.9-17\bin
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       --add-opens=java.base/java.lang=ALL-UNNAMED
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       --add-opens=java.base/java.io=ALL-UNNAMED
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       --add-opens=java.base/java.util=ALL-UNNAMED
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Dfile.encoding=UTF-8
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Dstdout.encoding=UTF-8
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -Dstderr.encoding=UTF-8
+3月 05, 2026 3:53:25 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: 命令行参数：       -XX:+ShowCodeDetailsInExceptionMessages
+3月 05, 2026 3:53:25 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: 使用APR版本[1.7.6]加载了基于APR的Apache Tomcat本机库[2.0.9]。
+3月 05, 2026 3:53:25 下午 org.apache.catalina.core.AprLifecycleListener initializeSSL
+信息: OpenSSL成功初始化 [OpenSSL 3.5.0 8 Apr 2025]
+3月 05, 2026 3:53:27 下午 org.apache.coyote.AbstractProtocol init
+信息: 初始化协议处理器 ["http-nio-8080"]
+3月 05, 2026 3:53:27 下午 org.apache.catalina.startup.Catalina load
+信息: 服务器在[4322]毫秒内初始化
+3月 05, 2026 3:53:28 下午 org.apache.catalina.core.StandardService startInternal
+信息: 正在启动服务[Catalina]
+3月 05, 2026 3:53:28 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: 正在启动 Servlet 引擎：[Apache Tomcat/11.0.9]
+3月 05, 2026 3:53:29 下午 org.apache.jasper.servlet.TldScanner scanJars
+信息: 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+3月 05, 2026 3:53:30 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+警告: 使用[SHA1PRNG]创建会话ID生成的SecureRandom实例花费了[404]毫秒。
+3月 05, 2026 3:53:31 下午 org.apache.jasper.servlet.TldScanner scanJars
+信息: 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+3月 05, 2026 3:53:39 下午 org.apache.jasper.servlet.TldScanner scanJars
+信息: 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+3月 05, 2026 3:53:39 下午 org.apache.coyote.AbstractProtocol start
+信息: 开始协议处理句柄["http-nio-8080"]
+3月 05, 2026 3:53:40 下午 org.apache.catalina.startup.Catalina start
+信息: [12463]毫秒后服务器启动
