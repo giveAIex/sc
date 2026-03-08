@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+         version="6.0">
+
+    <!-- 字符编码过滤器 -->
+    <filter>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-class>com.sc1.filter.CharacterEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharacterEncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- 自动登录过滤器 -->
+    <filter>
+        <filter-name>AutoLoginFilter</filter-name>
+        <filter-class>com.sc1.filter.AutoLoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AutoLoginFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <!-- 静态资源缓存优化（加快加载） -->
+    <filter>
+        <filter-name>CacheFilter</filter-name>
+        <filter-class>org.apache.catalina.filters.ExpiresFilter</filter-class>
+        <init-param>
+            <param-name>ExpiresByType text/css</param-name>
+            <param-value>access plus 7 days</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType application/javascript</param-name>
+            <param-value>access plus 7 days</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ExpiresByType image/*</param-name>
+            <param-value>access plus 30 days</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>CacheFilter</filter-name>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.js</url-pattern>
+        <url-pattern>*.png</url-pattern>
+        <url-pattern>*.jpg</url-pattern>
+    </filter-mapping>
+
+    <!-- 默认首页 -->
+    <welcome-file-list>
+        <welcome-file>customer/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
